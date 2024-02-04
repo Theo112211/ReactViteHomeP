@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+
+.link:hover {
+    color: rgb(247, 101, 75);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo {
+    max-width: 50px;
+}
+
+.column {
+    padding: 20px;
+}
+
+.fades {
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    color: #a3aebe;
+}
+
+.fade1 {
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    color: #797979;
+    line-height: 3.5px;
+}
+
+.canvas {
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.hero {
+    grid-row: span 1;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.home {
+    grid-column: span 2;
+    grid-row: span 1;
+    margin-bottom: 40px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.headlineCL {
+    background-color: rgb(7, 18, 43);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.head {
+    color: rgb(241, 210, 124);
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.heading:hover {
+    color: rgb(241, 210, 124);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.headlines {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.658);
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+.Bcolumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.web {
+    font-size: 63px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: rgb(7, 18, 43);
+}
+
+.readMore {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(247, 101, 75);
+    letter-spacing: 5px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding-inline: 14px;
+    padding-block: 18px;
+    font-size: 12px;
+    max-width: 170px;
+    min-width: 170px;
+
+}
+
+.readMore:hover {
+    background-color: rgb(7, 18, 43);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.numb {
+    font-family: "Inter", sans-serif;
+    color: #a3aebe;
+    font-size: 30px;
+}
+
+.heading1 {
+    color: rgb(7, 18, 43);
+    font-size: 20px;
+}
+
+.heading1:hover {
+    color: rgb(247, 101, 75);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.ad {
+    height: 60%;
+}
+
+.bCard {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.fade2 {
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    color: #797979;
+}
+
+.fade3 {
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #797979;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastLink {
+    text-decoration: none;
+    color: rgb(7, 18, 43);
+}
+
+.lastLink:hover {
+    color: rgb(247, 101, 75);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 1030px) {
+    .Bcolumns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .column {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 770px) {
+    .Bcolumns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .column {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    .links {
+        display: flex;
+        gap: 30px;
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        color: rgb(112, 112, 112);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 15px;
+    }
+
+    .canvas {
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .column,
+    .Bcolumns {
+        display: block;
+    }
+
+    .headlineCL {
+        background-color: rgb(7, 18, 43);
+        color: white;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 25px;
+    }
+}
+
+.hamburger {
+    /* z-index: -1000; */
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .hamburger {
+        /* z-index: -1000; */
+        display: none;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hamburger {
+        font-size: 25px;
+        /* z-index: 1000; */
+        display: block;
+        color: rgb(112, 112, 112);
+    }
+
+    .hamburger:hover {
+        color: rgb(247, 101, 75);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.cross {
+    font-family: "Inter", sans-serif;
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .links {
+        display: none;
+    }
+
+    .web {
+        font-size: 30px;
+    }
+
+    .hamburger {
+        font-size: 25px;
+        z-index: 1000;
+        color: rgb(112, 112, 112);
+    }
+
+    .hamburger:hover {
+        color: rgb(247, 101, 75);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+
+.cross {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 50vw;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(7, 20, 37);
+    text-decoration: none;
+}
+
+.cross:hover {
+    color: rgb(247, 101, 75);
+}
+
+.menu {
+    opacity: 0%;
+    position: fixed;
+    top: 0;
+    right: -60%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.2s ease-in-out;
+}
+
+.translucent {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 60%;
+    background-color: rgb(7, 18, 43);
+    z-index: px;
+    display: none;
+}
+
+.menu-link {
+    display: flex;
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: rgb(7, 20, 37);
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: rgb(247, 101, 75);
+}
